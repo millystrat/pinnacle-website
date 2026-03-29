@@ -69,7 +69,7 @@ export function HeroSection({
     <section
       className={`relative w-full min-h-screen overflow-hidden bg-background flex items-center justify-center ${className}`}
     >
-      <div className="fixed inset-0 w-screen h-screen">
+      <div className="absolute inset-0 w-full h-full">
         {mounted && (
           <>
             <MeshGradient
