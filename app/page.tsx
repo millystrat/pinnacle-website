@@ -1,5 +1,5 @@
 import { Nav } from "@/components/nav";
-import { Hero } from "@/components/hero";
+import { HeroSection } from "@/components/ui/hero-section-with-smooth-bg-shader";
 import { Services } from "@/components/services";
 import { Pricing } from "@/components/pricing";
 import { WhyUs } from "@/components/why-us";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Nav />
       <main className="pt-16">
-        <Hero />
+        <HeroSection distortion={1.2} speed={0.8} />
         <Services />
         <Pricing />
         <WhyUs />

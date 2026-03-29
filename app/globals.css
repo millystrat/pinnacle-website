@@ -3,6 +3,8 @@
 @theme inline {
   --color-background: var(--pinnacle-bg);
   --color-foreground: var(--pinnacle-text);
+  --color-primary: var(--pinnacle-cyan);
+  --color-card: var(--pinnacle-bg-alt);
   --font-heading: var(--font-inter, "Inter", sans-serif);
   --font-body: var(--font-inter, "Inter", sans-serif);
 }
