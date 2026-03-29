@@ -90,6 +90,14 @@ export function HeroSection({
         )}
       </div>
 
+      {/* Fade to next section */}
+      <div
+        className="absolute bottom-0 left-0 right-0 h-40 pointer-events-none z-10"
+        style={{
+          background: "linear-gradient(to bottom, transparent, #111827)",
+        }}
+      />
+
       <div className={`relative z-10 ${maxWidth} mx-auto px-6 w-full`}>
         <div className="text-center">
           <p
